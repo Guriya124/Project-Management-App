@@ -48,7 +48,7 @@ export default function NewProject({ onAdd }) {
         <>
             {showPopup && (
                 <PopUp onClose={() => setShowPopup(false)}>
-                    Please fill in all fields.
+                    <p className="text-red-500">Please fill out all fields.</p>
                 </PopUp>
             )}
             <div className="w-[32rem] mt-8">
